@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.app__todo {
+  list-style-type: none;
+  color: fuchsia;
+}
+
+.app__todo-delete-btn {
+  color: red;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.app__todo-delete-btn:hover {
+  color: rgb(240, 172, 26);
+}
+
+input:checked + span {
+  text-decoration: line-through;
+  color:rgb(239, 200, 246)
+}
+
+.app__todo-checkbox {
+  margin-right: 10px;
+  cursor: pointer;
+}
